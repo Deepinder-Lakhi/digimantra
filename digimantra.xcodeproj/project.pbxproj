@@ -50,6 +50,9 @@
 		5EDFFE641D8BF8C6008CEBC2 /* TransactionDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDFFE621D8BF8C6008CEBC2 /* TransactionDetailCell.swift */; };
 		5EDFFE651D8BF8C6008CEBC2 /* TransactionDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EDFFE631D8BF8C6008CEBC2 /* TransactionDetailCell.xib */; };
 		5EDFFE671D8C043E008CEBC2 /* TransactionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDFFE661D8C043E008CEBC2 /* TransactionDetailViewController.swift */; };
+		5EDFFE691D8C1A7B008CEBC2 /* TransactionHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDFFE681D8C1A7B008CEBC2 /* TransactionHistoryViewController.swift */; };
+		5EDFFE6C1D8C1B46008CEBC2 /* TransactionHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDFFE6A1D8C1B46008CEBC2 /* TransactionHistoryCell.swift */; };
+		5EDFFE6D1D8C1B46008CEBC2 /* TransactionHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EDFFE6B1D8C1B46008CEBC2 /* TransactionHistoryCell.xib */; };
 		5EE10F3D1D758AA400A97BC9 /* FinancialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE10F3B1D758AA400A97BC9 /* FinancialCell.swift */; };
 		5EE10F3E1D758AA400A97BC9 /* FinancialCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EE10F3C1D758AA400A97BC9 /* FinancialCell.xib */; };
 		5EE10F401D76B82000A97BC9 /* WorkoutFinancialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE10F3F1D76B82000A97BC9 /* WorkoutFinancialViewController.swift */; };
@@ -135,6 +138,9 @@
 		5EDFFE621D8BF8C6008CEBC2 /* TransactionDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionDetailCell.swift; sourceTree = "<group>"; };
 		5EDFFE631D8BF8C6008CEBC2 /* TransactionDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionDetailCell.xib; sourceTree = "<group>"; };
 		5EDFFE661D8C043E008CEBC2 /* TransactionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionDetailViewController.swift; sourceTree = "<group>"; };
+		5EDFFE681D8C1A7B008CEBC2 /* TransactionHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistoryViewController.swift; sourceTree = "<group>"; };
+		5EDFFE6A1D8C1B46008CEBC2 /* TransactionHistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistoryCell.swift; sourceTree = "<group>"; };
+		5EDFFE6B1D8C1B46008CEBC2 /* TransactionHistoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionHistoryCell.xib; sourceTree = "<group>"; };
 		5EE10F3B1D758AA400A97BC9 /* FinancialCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialCell.swift; sourceTree = "<group>"; };
 		5EE10F3C1D758AA400A97BC9 /* FinancialCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FinancialCell.xib; sourceTree = "<group>"; };
 		5EE10F3F1D76B82000A97BC9 /* WorkoutFinancialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutFinancialViewController.swift; sourceTree = "<group>"; };
@@ -373,6 +379,8 @@
 				C90EFB131D6C837600D0A802 /* MyWorkoutPageViewController.xib */,
 				5EDFFE621D8BF8C6008CEBC2 /* TransactionDetailCell.swift */,
 				5EDFFE631D8BF8C6008CEBC2 /* TransactionDetailCell.xib */,
+				5EDFFE6A1D8C1B46008CEBC2 /* TransactionHistoryCell.swift */,
+				5EDFFE6B1D8C1B46008CEBC2 /* TransactionHistoryCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -388,6 +396,7 @@
 				5EFE627C1D7550070049CBB5 /* WorkOutDetailViewController.xib */,
 				5EE10F3F1D76B82000A97BC9 /* WorkoutFinancialViewController.swift */,
 				5EDFFE661D8C043E008CEBC2 /* TransactionDetailViewController.swift */,
+				5EDFFE681D8C1A7B008CEBC2 /* TransactionHistoryViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -462,6 +471,7 @@
 				5E9EBDC41D7FE37E00CE200B /* ProposalCellView.xib in Resources */,
 				5E6769031D868041004B2A72 /* CustomTextFieldCell.xib in Resources */,
 				5EF402571D5B3427000ECB6F /* LaunchScreen.storyboard in Resources */,
+				5EDFFE6D1D8C1B46008CEBC2 /* TransactionHistoryCell.xib in Resources */,
 				5E6769241D8786FB004B2A72 /* PayMethodsCell.xib in Resources */,
 				C9B421E91D6ACFD7007A9F8A /* OlderWorkoutCell.xib in Resources */,
 				5EF402541D5B3427000ECB6F /* Assets.xcassets in Resources */,
@@ -491,6 +501,7 @@
 				5E67693A1D88230B004B2A72 /* AddAdressViewController.swift in Sources */,
 				C9B421E81D6ACFD7007A9F8A /* OlderWorkoutCell.swift in Sources */,
 				5E6769311D881D4D004B2A72 /* BlockListViewController.swift in Sources */,
+				5EDFFE6C1D8C1B46008CEBC2 /* TransactionHistoryCell.swift in Sources */,
 				5E37923E1D8187BC0039ADAB /* ProposalCell.swift in Sources */,
 				5EDFFE641D8BF8C6008CEBC2 /* TransactionDetailCell.swift in Sources */,
 				5E6769141D8686ED004B2A72 /* ALView+PureLayout.m in Sources */,
@@ -522,6 +533,7 @@
 				5EE10F451D76BF5E00A97BC9 /* GlobelHeaderView.swift in Sources */,
 				5E9EBDBC1D7FDD8A00CE200B /* ProposalViewController.swift in Sources */,
 				C9CF26EF1D6C11CB006058E5 /* SessionDetailViewController.swift in Sources */,
+				5EDFFE691D8C1A7B008CEBC2 /* TransactionHistoryViewController.swift in Sources */,
 				5EC656C51D6340F600DDD7A9 /* NotificationViewController.swift in Sources */,
 				5E6769021D868041004B2A72 /* CustomTextFieldCell.swift in Sources */,
 				5E6769051D8681CF004B2A72 /* ManageProfileViewController.swift in Sources */,
