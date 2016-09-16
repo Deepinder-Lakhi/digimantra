@@ -18,8 +18,6 @@
 		5E6034E81D66E893004E679E /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6034E71D66E893004E679E /* MessageViewController.swift */; };
 		5E6034EB1D66FE38004E679E /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6034E91D66FE38004E679E /* MessageCell.swift */; };
 		5E6034EC1D66FE38004E679E /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E6034EA1D66FE38004E679E /* MessageCell.xib */; };
-		5E6576F61D701BFA00249945 /* WorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6576F51D701BF900249945 /* WorkoutDetailView.swift */; };
-		5E6576F81D701E0600249945 /* WorkOutDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E6576F71D701E0600249945 /* WorkOutDetailView.xib */; };
 		5E6768F51D867B57004B2A72 /* KUTextViewEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6768F41D867B57004B2A72 /* KUTextViewEffect.m */; };
 		5E6769021D868041004B2A72 /* CustomTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6769001D868041004B2A72 /* CustomTextFieldCell.swift */; };
 		5E6769031D868041004B2A72 /* CustomTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E6769011D868041004B2A72 /* CustomTextFieldCell.xib */; };
@@ -49,6 +47,9 @@
 		5E9EBDC21D7FE35E00CE200B /* ProposalCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9EBDC11D7FE35E00CE200B /* ProposalCellView.swift */; };
 		5E9EBDC41D7FE37E00CE200B /* ProposalCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E9EBDC31D7FE37E00CE200B /* ProposalCellView.xib */; };
 		5EC656C51D6340F600DDD7A9 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC656C41D6340F600DDD7A9 /* NotificationViewController.swift */; };
+		5EDFFE641D8BF8C6008CEBC2 /* TransactionDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDFFE621D8BF8C6008CEBC2 /* TransactionDetailCell.swift */; };
+		5EDFFE651D8BF8C6008CEBC2 /* TransactionDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EDFFE631D8BF8C6008CEBC2 /* TransactionDetailCell.xib */; };
+		5EDFFE671D8C043E008CEBC2 /* TransactionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDFFE661D8C043E008CEBC2 /* TransactionDetailViewController.swift */; };
 		5EE10F3D1D758AA400A97BC9 /* FinancialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE10F3B1D758AA400A97BC9 /* FinancialCell.swift */; };
 		5EE10F3E1D758AA400A97BC9 /* FinancialCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EE10F3C1D758AA400A97BC9 /* FinancialCell.xib */; };
 		5EE10F401D76B82000A97BC9 /* WorkoutFinancialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE10F3F1D76B82000A97BC9 /* WorkoutFinancialViewController.swift */; };
@@ -94,8 +95,6 @@
 		5E6034E71D66E893004E679E /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		5E6034E91D66FE38004E679E /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		5E6034EA1D66FE38004E679E /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
-		5E6576F51D701BF900249945 /* WorkoutDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutDetailView.swift; sourceTree = "<group>"; };
-		5E6576F71D701E0600249945 /* WorkOutDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkOutDetailView.xib; sourceTree = "<group>"; };
 		5E6768F21D867B56004B2A72 /* digimantra-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "digimantra-Bridging-Header.h"; sourceTree = "<group>"; };
 		5E6768F31D867B57004B2A72 /* KUTextViewEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KUTextViewEffect.h; sourceTree = "<group>"; };
 		5E6768F41D867B57004B2A72 /* KUTextViewEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KUTextViewEffect.m; sourceTree = "<group>"; };
@@ -133,6 +132,9 @@
 		5E9EBDC11D7FE35E00CE200B /* ProposalCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProposalCellView.swift; sourceTree = "<group>"; };
 		5E9EBDC31D7FE37E00CE200B /* ProposalCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProposalCellView.xib; sourceTree = "<group>"; };
 		5EC656C41D6340F600DDD7A9 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		5EDFFE621D8BF8C6008CEBC2 /* TransactionDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionDetailCell.swift; sourceTree = "<group>"; };
+		5EDFFE631D8BF8C6008CEBC2 /* TransactionDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionDetailCell.xib; sourceTree = "<group>"; };
+		5EDFFE661D8C043E008CEBC2 /* TransactionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionDetailViewController.swift; sourceTree = "<group>"; };
 		5EE10F3B1D758AA400A97BC9 /* FinancialCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialCell.swift; sourceTree = "<group>"; };
 		5EE10F3C1D758AA400A97BC9 /* FinancialCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FinancialCell.xib; sourceTree = "<group>"; };
 		5EE10F3F1D76B82000A97BC9 /* WorkoutFinancialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutFinancialViewController.swift; sourceTree = "<group>"; };
@@ -350,8 +352,8 @@
 			isa = PBXGroup;
 			children = (
 				C9B421E31D6ACB3B007A9F8A /* Model */,
-				C9B421E21D6ACB27007A9F8A /* Controller */,
 				C9B421E11D6ACB07007A9F8A /* View */,
+				C9B421E21D6ACB27007A9F8A /* Controller */,
 			);
 			name = MyWorkOut;
 			sourceTree = "<group>";
@@ -369,8 +371,8 @@
 				C9B421F31D6B2765007A9F8A /* SessionDetailView.xib */,
 				C90EFB121D6C837600D0A802 /* MyWorkoutPageViewController.swift */,
 				C90EFB131D6C837600D0A802 /* MyWorkoutPageViewController.xib */,
-				5E6576F51D701BF900249945 /* WorkoutDetailView.swift */,
-				5E6576F71D701E0600249945 /* WorkOutDetailView.xib */,
+				5EDFFE621D8BF8C6008CEBC2 /* TransactionDetailCell.swift */,
+				5EDFFE631D8BF8C6008CEBC2 /* TransactionDetailCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -385,6 +387,7 @@
 				5EFE627B1D7550070049CBB5 /* WorkOutDetailViewController.swift */,
 				5EFE627C1D7550070049CBB5 /* WorkOutDetailViewController.xib */,
 				5EE10F3F1D76B82000A97BC9 /* WorkoutFinancialViewController.swift */,
+				5EDFFE661D8C043E008CEBC2 /* TransactionDetailViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -462,11 +465,11 @@
 				5E6769241D8786FB004B2A72 /* PayMethodsCell.xib in Resources */,
 				C9B421E91D6ACFD7007A9F8A /* OlderWorkoutCell.xib in Resources */,
 				5EF402541D5B3427000ECB6F /* Assets.xcassets in Resources */,
-				5E6576F81D701E0600249945 /* WorkOutDetailView.xib in Resources */,
 				5EFE627E1D7550070049CBB5 /* WorkOutDetailViewController.xib in Resources */,
 				5E37923F1D8187BC0039ADAB /* ProposalCell.xib in Resources */,
 				5EE10F3E1D758AA400A97BC9 /* FinancialCell.xib in Resources */,
 				C9B421F51D6B2765007A9F8A /* SessionDetailView.xib in Resources */,
+				5EDFFE651D8BF8C6008CEBC2 /* TransactionDetailCell.xib in Resources */,
 				5EF402521D5B3427000ECB6F /* Main.storyboard in Resources */,
 				5EF402C41D5C7FDE000ECB6F /* SettingsViewController.xib in Resources */,
 				5E0DE67F1D6EF93800570A50 /* selectionOlderCell.xib in Resources */,
@@ -489,6 +492,7 @@
 				C9B421E81D6ACFD7007A9F8A /* OlderWorkoutCell.swift in Sources */,
 				5E6769311D881D4D004B2A72 /* BlockListViewController.swift in Sources */,
 				5E37923E1D8187BC0039ADAB /* ProposalCell.swift in Sources */,
+				5EDFFE641D8BF8C6008CEBC2 /* TransactionDetailCell.swift in Sources */,
 				5E6769141D8686ED004B2A72 /* ALView+PureLayout.m in Sources */,
 				5E6769231D8786FB004B2A72 /* PayMethodsCell.swift in Sources */,
 				C90EFB141D6C837600D0A802 /* MyWorkoutPageViewController.swift in Sources */,
@@ -497,10 +501,10 @@
 				5E6769261D8787BB004B2A72 /* SavedAddressCell.swift in Sources */,
 				5EE10F3D1D758AA400A97BC9 /* FinancialCell.swift in Sources */,
 				5E9EBDBE1D7FDE0600CE200B /* QuickSurveyViewController.swift in Sources */,
+				5EDFFE671D8C043E008CEBC2 /* TransactionDetailViewController.swift in Sources */,
 				5E9EBDC21D7FE35E00CE200B /* ProposalCellView.swift in Sources */,
 				C9CF26F21D6C120B006058E5 /* SessionDetailView.swift in Sources */,
 				5E6769381D881D77004B2A72 /* AddToBlockCell.swift in Sources */,
-				5E6576F61D701BFA00249945 /* WorkoutDetailView.swift in Sources */,
 				C9BECC941D80471000D5FBBD /* refineListCell.swift in Sources */,
 				5E0DE67E1D6EF93800570A50 /* selectionOlderCell.swift in Sources */,
 				5E6034EB1D66FE38004E679E /* MessageCell.swift in Sources */,

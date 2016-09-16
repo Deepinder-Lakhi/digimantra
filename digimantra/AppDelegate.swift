@@ -17,14 +17,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
          //Setting up root from XIb
-         window = UIWindow(frame: UIScreen.mainScreen().bounds)
+       /*  window = UIWindow(frame: UIScreen.mainScreen().bounds)
         
         let mainViewController = SettingsViewController(nibName: "SettingsViewController", bundle: nil)
         let nav = UINavigationController()
         nav.pushViewController(mainViewController, animated: true)
         window?.rootViewController = nav
         window?.makeKeyAndVisible()
-        
+        */
         return true
     }
 
