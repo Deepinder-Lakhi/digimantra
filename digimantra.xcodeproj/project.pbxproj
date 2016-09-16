@@ -53,6 +53,9 @@
 		5EDFFE691D8C1A7B008CEBC2 /* TransactionHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDFFE681D8C1A7B008CEBC2 /* TransactionHistoryViewController.swift */; };
 		5EDFFE6C1D8C1B46008CEBC2 /* TransactionHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDFFE6A1D8C1B46008CEBC2 /* TransactionHistoryCell.swift */; };
 		5EDFFE6D1D8C1B46008CEBC2 /* TransactionHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EDFFE6B1D8C1B46008CEBC2 /* TransactionHistoryCell.xib */; };
+		5EDFFE701D8C1C1D008CEBC2 /* CustomeSessionPreferencesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDFFE6E1D8C1C1D008CEBC2 /* CustomeSessionPreferencesCell.swift */; };
+		5EDFFE711D8C1C1D008CEBC2 /* CustomeSessionPreferencesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EDFFE6F1D8C1C1D008CEBC2 /* CustomeSessionPreferencesCell.xib */; };
+		5EDFFE731D8C1C25008CEBC2 /* CustomeSessionPreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDFFE721D8C1C25008CEBC2 /* CustomeSessionPreferencesViewController.swift */; };
 		5EE10F3D1D758AA400A97BC9 /* FinancialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE10F3B1D758AA400A97BC9 /* FinancialCell.swift */; };
 		5EE10F3E1D758AA400A97BC9 /* FinancialCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EE10F3C1D758AA400A97BC9 /* FinancialCell.xib */; };
 		5EE10F401D76B82000A97BC9 /* WorkoutFinancialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE10F3F1D76B82000A97BC9 /* WorkoutFinancialViewController.swift */; };
@@ -141,6 +144,9 @@
 		5EDFFE681D8C1A7B008CEBC2 /* TransactionHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistoryViewController.swift; sourceTree = "<group>"; };
 		5EDFFE6A1D8C1B46008CEBC2 /* TransactionHistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistoryCell.swift; sourceTree = "<group>"; };
 		5EDFFE6B1D8C1B46008CEBC2 /* TransactionHistoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionHistoryCell.xib; sourceTree = "<group>"; };
+		5EDFFE6E1D8C1C1D008CEBC2 /* CustomeSessionPreferencesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomeSessionPreferencesCell.swift; sourceTree = "<group>"; };
+		5EDFFE6F1D8C1C1D008CEBC2 /* CustomeSessionPreferencesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomeSessionPreferencesCell.xib; sourceTree = "<group>"; };
+		5EDFFE721D8C1C25008CEBC2 /* CustomeSessionPreferencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomeSessionPreferencesViewController.swift; sourceTree = "<group>"; };
 		5EE10F3B1D758AA400A97BC9 /* FinancialCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialCell.swift; sourceTree = "<group>"; };
 		5EE10F3C1D758AA400A97BC9 /* FinancialCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FinancialCell.xib; sourceTree = "<group>"; };
 		5EE10F3F1D76B82000A97BC9 /* WorkoutFinancialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutFinancialViewController.swift; sourceTree = "<group>"; };
@@ -320,6 +326,7 @@
 				5E67693B1D882318004B2A72 /* NewPayMethodViewController.swift */,
 				5E67692F1D881D4D004B2A72 /* BlockListViewController.swift */,
 				5E6769301D881D4D004B2A72 /* AddToBlokListViewController.swift */,
+				5EDFFE721D8C1C25008CEBC2 /* CustomeSessionPreferencesViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -343,6 +350,8 @@
 				5E6769351D881D77004B2A72 /* AddToBlockCell.swift */,
 				5E67693D1D882362004B2A72 /* AddressCell.swift */,
 				5E67693F1D882379004B2A72 /* NewPaymentMethodCell.swift */,
+				5EDFFE6E1D8C1C1D008CEBC2 /* CustomeSessionPreferencesCell.swift */,
+				5EDFFE6F1D8C1C1D008CEBC2 /* CustomeSessionPreferencesCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -479,6 +488,7 @@
 				5E37923F1D8187BC0039ADAB /* ProposalCell.xib in Resources */,
 				5EE10F3E1D758AA400A97BC9 /* FinancialCell.xib in Resources */,
 				C9B421F51D6B2765007A9F8A /* SessionDetailView.xib in Resources */,
+				5EDFFE711D8C1C1D008CEBC2 /* CustomeSessionPreferencesCell.xib in Resources */,
 				5EDFFE651D8BF8C6008CEBC2 /* TransactionDetailCell.xib in Resources */,
 				5EF402521D5B3427000ECB6F /* Main.storyboard in Resources */,
 				5EF402C41D5C7FDE000ECB6F /* SettingsViewController.xib in Resources */,
@@ -510,6 +520,7 @@
 				5E0DE6811D6F0DC000570A50 /* SelectOlderWorkoutViewController.swift in Sources */,
 				5E6768F51D867B57004B2A72 /* KUTextViewEffect.m in Sources */,
 				5E6769261D8787BB004B2A72 /* SavedAddressCell.swift in Sources */,
+				5EDFFE701D8C1C1D008CEBC2 /* CustomeSessionPreferencesCell.swift in Sources */,
 				5EE10F3D1D758AA400A97BC9 /* FinancialCell.swift in Sources */,
 				5E9EBDBE1D7FDE0600CE200B /* QuickSurveyViewController.swift in Sources */,
 				5EDFFE671D8C043E008CEBC2 /* TransactionDetailViewController.swift in Sources */,
@@ -541,6 +552,7 @@
 				5E6769321D881D4D004B2A72 /* AddToBlokListViewController.swift in Sources */,
 				5E67692A1D87880A004B2A72 /* PayMethodsViewController.swift in Sources */,
 				C9B421E51D6ACB64007A9F8A /* OlderWorkOutViewController.swift in Sources */,
+				5EDFFE731D8C1C25008CEBC2 /* CustomeSessionPreferencesViewController.swift in Sources */,
 				5E6034E81D66E893004E679E /* MessageViewController.swift in Sources */,
 				5E6034E61D6692EA004E679E /* AlertViewController.swift in Sources */,
 				5EE10F421D76BBD800A97BC9 /* Global.swift in Sources */,
